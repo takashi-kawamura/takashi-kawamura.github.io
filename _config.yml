@@ -1,0 +1,57 @@
+# Site settings
+title: Takashi Kawamura
+description: PhD Student, The University of Tokyo - Research Center for Advanced Science and Technology (RCAST)
+email: tkawamura_at_atmos.rcast.u-tokyo.ac.jp
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://takashi-kawamura.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "publication"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Plugins
+remote_theme: "mmistakes/minimal-mistakes@latest"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO
+author: Takashi Kawamura
+social:
+  name: Takashi Kawamura
+  links:
+    - https://scholar.google.com/
+    - https://github.com/
+    - https://orcid.org/
