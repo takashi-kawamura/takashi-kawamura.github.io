@@ -22,12 +22,8 @@ defaults:
       path: ""
       type: "pages"
     values:
+      navigation: "true"
       layout: "default"
-  - scope:
-      path: ""
-      type: "publications"
-    values:
-      layout: "publication"
 
 # Exclude from processing
 exclude:
