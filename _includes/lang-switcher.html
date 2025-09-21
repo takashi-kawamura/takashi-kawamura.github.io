@@ -1,0 +1,10 @@
+{% assign is_en = page.url | slice: 0,4 | downcase == '/en/' %}
+{% if is_en %}
+  {% assign alt_url = page.url | remove_first: '/en' %}
+  {% assign alt_label = '日本語' %}
+{% else %}
+  {% assign alt_url = page.url %}
+  {% if alt_url == '/' %}{% assign alt_url = '/en/' %}{% else %}{% assign alt_url = '/en' | append: alt_url %}{% endif %}
+  {% assign alt_label = 'English' %}
+{% endif %}
+<a class="lang-switch" href="{{ alt_url | relative_url }}">{{ alt_label }}</a>
