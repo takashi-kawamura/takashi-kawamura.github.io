@@ -5,16 +5,15 @@ email: tkawamura[at]atmos.rcast.u-tokyo.ac.jp
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://takashi-kawamura.github.io" # the base hostname & protocol for your site
 
+theme: "minimal-mistakes-jekyll"
+
 # Plugins
 plugins:
-  - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-polyglot
-
-theme: "minimal-mistakes-jekyll"
 
 # Polyglot
 languages: ["ja", "en"]
@@ -23,7 +22,6 @@ default_lang: "ja"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-
 
 # Defaults
 defaults:
