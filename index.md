@@ -20,9 +20,7 @@ Test
 <section>
   <h2>About Me</h2>
   <p>
-    I am a PhD student specializing in <strong>climate dynamics and meteorology</strong>,
-    with a focus on Northern Hemisphere atmospheric variability, including the Northern Annular Mode (NAM),
-    North Atlantic Oscillation (NAO), and their modulation by ENSO under global warming.
+    こんにちは。
   </p>
 </section>
 
