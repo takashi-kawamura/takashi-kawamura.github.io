@@ -14,9 +14,9 @@ email: tkawamura[at]atmos.rcast.u-tokyo.ac.jp
 ---
 Test
 
-[Profile](/profile/){: .btn .btn--primary }
-[Publications](/publications/){: .btn .btn--info }
-[Blog](/blog/){: .btn .btn--success }
+[Profile](/en/profile/){: .btn .btn--primary }
+[Publications](/en/publications/){: .btn .btn--info }
+[Blog](/en/blog/){: .btn .btn--success }
 
 <section>
   <h2>About Me</h2>

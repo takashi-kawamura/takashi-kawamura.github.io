@@ -1,9 +1,15 @@
+{% comment %} 現在のページが英語ページかどうかを判定 {% endcomment %}
 {% assign is_en = page.url | slice: 0,4 | downcase == '/en/' %}
 
 {% if is_en %}
+  {% comment %} 英語ページから日本語ページへの切り替え {% endcomment %}
   {%- assign alt_url = page.url | remove_first: '/en' -%}
+  {%- if alt_url == '' -%}
+    {%- assign alt_url = '/' -%}
+  {%- endif -%}
   {%- assign alt_label = '日本語' -%}
 {% else %}
+  {% comment %} 日本語ページから英語ページへの切り替え {% endcomment %}
   {%- assign alt_url = page.url -%}
   {%- if alt_url == '/' -%}
     {%- assign alt_url = '/en/' -%}
