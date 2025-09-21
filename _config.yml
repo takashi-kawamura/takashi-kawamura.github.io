@@ -41,11 +41,12 @@ exclude:
   - README.md
 
 # Plugins
-remote_theme: "mmistakes/minimal-mistakes@latest"
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme
   - jekyll-include-cache
 
 # SEO
