@@ -7,6 +7,27 @@ url: "https://takashi-kawamura.github.io" # the base hostname & protocol for you
 
 theme: "minimal-mistakes-jekyll"
 
+# Minimal Mistakes theme settings
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Author
+author:
+  name: "Takashi Kawamura"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "PhD Student, The University of Tokyo - Research Center for Advanced Science and Technology (RCAST)"
+  location: "Tokyo, Japan"
+  email: "tkawamura[at]atmos.rcast.u-tokyo.ac.jp"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:tkawamura@atmos.rcast.u-tokyo.ac.jp"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://takashi-kawamura.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/takashi-kawamura"
+
 # Plugins
 plugins:
   - jekyll-include-cache
@@ -18,6 +39,7 @@ plugins:
 # Polyglot
 languages: ["ja", "en"]
 default_lang: "ja"
+locale: "ja_JP"
 
 # Build settings
 markdown: kramdown

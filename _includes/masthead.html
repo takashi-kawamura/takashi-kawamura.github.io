@@ -14,7 +14,6 @@
         <ul class="visible-links">
           {% assign nav_list = site.active_lang == "en" ? site.data.navigation.main_en : site.data.navigation.main %}
           {%- for link in nav_list -%}
-            {% include nav.html %}
             <li class="masthead__menu-item">
               <a
                 href="{{ link.url | relative_url }}"
