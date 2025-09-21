@@ -7,11 +7,14 @@ url: "https://takashi-kawamura.github.io" # the base hostname & protocol for you
 
 # Plugins
 plugins:
+  - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-polyglot
+
+theme: "minimal-mistakes-jekyll"
 
 # Polyglot
 languages: ["ja", "en"]
@@ -21,7 +24,6 @@ default_lang: "ja"
 markdown: kramdown
 highlighter: rouge
 
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 # Defaults
 defaults:
