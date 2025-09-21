@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
+gem "jekyll", "~> 3.8.6"
 
 gem "minimal-mistakes-jekyll"
 gem "jekyll-include-cache"
