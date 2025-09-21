@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: single
 title: Home
-description: PhD Student specializing in climate dynamics and meteorology, with a focus on Northern Hemisphere atmospheric variability
+author_profile: false
 ---
 
 <section>
@@ -17,32 +17,8 @@ description: PhD Student specializing in climate dynamics and meteorology, with 
   <h2>Research Interests</h2>
   <ul>
     <li>Northern Annular Mode (NAM) and North Atlantic Oscillation (NAO)</li>
-    <li>Aleutian–Icelandic Low seesaw (AIS)</li>
-    <li>ENSO teleconnections (EP-ENSO vs CP-ENSO)</li>
-    <li>Large-ensemble AGCM/CGCM experiments (d4PDF, MIROC6, CESM2, MPI-ESM)</li>
-  </ul>
-</section>
-
-<section>
-  <h2>Publications</h2>
-  <ul>
-    <li>
-      Kawamura, T., Kosaka, Y., Nakamura, H., et al. (2025). 
-      <em>Projected Changes of the Northern Annular Mode Linked to Seasonality of the ENSO Teleconnection</em>. 
-      <strong>Geophysical Research Letters</strong>. 
-      <a href="https://doi.org/10.1029/2025GL118175" target="_blank">https://doi.org/10.1029/2025GL118175</a>
-    </li>
-    <li>
-      (In prep.) ENSO modulation of the Aleutian–Icelandic Low seesaw under climate change.  
-    </li>
-  </ul>
-</section>
-
-<section>
-  <h2>Presentations</h2>
-  <ul>
-    <li>AGU Fall Meeting 2025, New Orleans (Oral)</li>
-    <li>JpGU Meeting 2024, Chiba (Poster)</li>
+    <li>ENSO teleconnections</li>
+    <li>Large-ensemble AGCM/CGCM experiments (d4PDF, CMIP5/6)</li>
   </ul>
 </section>
 
