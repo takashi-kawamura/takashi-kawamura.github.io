@@ -1,10 +1,9 @@
 ---
-layout: splash
+layout: default
 title: ""
 header: false
 author_profile: false
 lang: ja
-permalink: /
 ---
 
 # 川村岳 (Takashi Kawamura)
