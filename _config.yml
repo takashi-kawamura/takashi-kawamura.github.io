@@ -18,29 +18,16 @@ author:
   bio: "PhD Student, The University of Tokyo - Research Center for Advanced Science and Technology (RCAST)"
   location: "Tokyo, Japan"
   email: "tkawamura[at]atmos.rcast.u-tokyo.ac.jp"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:tkawamura@atmos.rcast.u-tokyo.ac.jp"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://takashi-kawamura.github.io"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/takashi-kawamura"
+
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 # Plugins
 plugins:
+  - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-polyglot
-
-# Polyglot
-languages: ["ja", "en"]
-default_lang: "ja"
-locale: "ja_JP"
 
 # Build settings
 markdown: kramdown
@@ -59,13 +46,6 @@ defaults:
       type: "pages"
     values:
       lang: "en"
-
-# ローカライズ対象外のパス（言語別コピーを作らない）
-exclude_from_localization:
-  - assets
-  - CNAME
-  - robots.txt
-  - favicon.ico
 
 # Include
 include: ["_pages"]
