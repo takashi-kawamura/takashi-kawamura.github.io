@@ -8,7 +8,7 @@ url: "https://takashi-kawamura.github.io" # the base hostname & protocol for you
 # Site Author
 author:
   name: "Takashi Kawamura"
-  avatar: "/assets/images/takashi-kawamura.png"
+  avatar: "/assets/img/takashi-kawamura.png"
   bio: "PhD Student, The University of Tokyo - Research Center for Advanced Science and Technology (RCAST)"
   location: "Tokyo, Japan"
   email: "tkawamura[at]atmos.rcast.u-tokyo.ac.jp"
@@ -37,3 +37,6 @@ defaults:
 
 # Include
 include: ["_pages"]
+
+# Language
+locale: ja

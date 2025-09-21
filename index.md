@@ -2,7 +2,7 @@
 layout: splash
 title: ""
 header: false
-author_profile: false
+author_profile: true
 ---
 
 # 川村岳 Takashi Kawamura
