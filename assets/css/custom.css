@@ -1,0 +1,10 @@
+/* 全ページ共通フォント設定 */
+body, h1, h2, h3, h4, h5, h6, small, .site-subtitle, .page__lead {
+    font-family:
+      Helvetica, "Helvetica Neue",
+      "Hiragino Kaku Gothic ProN", "Hiragino Sans",
+      "Yu Gothic Medium", "Yu Gothic",
+      Meiryo,
+      Arial, sans-serif;
+    line-height: 1.8;
+  }
