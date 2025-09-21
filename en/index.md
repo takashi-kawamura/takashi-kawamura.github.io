@@ -1,8 +1,10 @@
 ---
-layout: single
+layout: splash
 title: ""
 header: false
 author_profile: false
+lang: en
+permalink: /en/
 ---
 
 # Takashi Kawamura  
