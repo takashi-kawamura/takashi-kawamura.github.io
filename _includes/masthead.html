@@ -22,6 +22,7 @@
             </li>
           {%- endfor -%}
         </ul>
+        <span class="lang-switch-wrap">{% include lang-switcher.html %}</span>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
@@ -33,7 +34,6 @@
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
-        <span class="lang-switch-wrap">{% include lang-switcher.html %}</span>
       </nav>
     </div>
   </div>
