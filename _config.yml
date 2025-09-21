@@ -10,6 +10,8 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
 # Collections
 collections:
   publications:
@@ -37,7 +39,6 @@ exclude:
   - README.md
 
 # Plugins
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
