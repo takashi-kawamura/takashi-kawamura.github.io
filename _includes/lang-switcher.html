@@ -1,5 +1,10 @@
-{% comment %} 現在のページの言語を判定（URLベース） {% endcomment %}
-{% assign is_en = page.url contains '/en/' %}
+{% comment %} 現在のページの言語を判定（ファイルパスベース） {% endcomment %}
+{% assign page_path = page.path | default: '' %}
+{% assign is_en = page_path contains 'en/' %}
+
+{% comment %} デバッグ情報（一時的） {% endcomment %}
+<!-- Debug: page.url = "{{ page.url }}", page.path = "{{ page_path }}", is_en = {{ is_en }} -->
+
 
 {% if is_en %}
   {% comment %} 英語ページから日本語ページへの切り替え {% endcomment %}
