@@ -5,6 +5,10 @@ email: tkawamura[at]atmos.rcast.u-tokyo.ac.jp
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://takashi-kawamura.github.io" # the base hostname & protocol for your site
 
+# Language settings
+locale: ja
+lang: ja
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -25,6 +29,12 @@ defaults:
       type: "pages"
     values:
       navigation: "true"
+      lang: "ja"
+  - scope:
+      path: "en"
+      type: "pages"
+    values:
+      lang: "en"
 
 # Include
 include: ["_pages"]

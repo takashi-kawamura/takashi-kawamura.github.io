@@ -5,6 +5,7 @@ header: false
 author_profile: false
 lang: en
 permalink: /en/
+locale: en
 ---
 
 # Takashi Kawamura  
