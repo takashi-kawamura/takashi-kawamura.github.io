@@ -1,11 +1,19 @@
-# main links
 main:
-  - title: "Home"
+  - title: "ホーム"
     url: /
-  - title: "Profile"
+  - title: "プロフィール"
     url: /profile/
-  - title: "Publications"
+  - title: "業績"
     url: /publications/
-  - title: "Blog"
+  - title: "ブログ"
     url: /blog/
 
+main_en:
+  - title: "Home"
+    url: /en/
+  - title: "Profile"
+    url: /en/profile/
+  - title: "Publications"
+    url: /en/publications/
+  - title: "Blog"
+    url: /en/blog/

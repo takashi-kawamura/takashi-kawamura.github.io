@@ -5,7 +5,6 @@ header: false
 author_profile: false
 lang: ja
 permalink: /
-locale: ja
 ---
 
 # 川村岳 (Takashi Kawamura)

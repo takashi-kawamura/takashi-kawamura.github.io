@@ -20,15 +20,8 @@ default_lang: "ja"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: pretty
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
-
-# Collections
-collections:
-  publications:
-    output: true
-    permalink: /:collection/:name/
 
 # Defaults
 defaults:
@@ -43,6 +36,13 @@ defaults:
       type: "pages"
     values:
       lang: "en"
+
+# ローカライズ対象外のパス（言語別コピーを作らない）
+exclude_from_localization:
+  - assets
+  - CNAME
+  - robots.txt
+  - favicon.ico
 
 # Include
 include: ["_pages"]
