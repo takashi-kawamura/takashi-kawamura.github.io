@@ -1,6 +1,10 @@
 {% comment %} 現在のページの言語を判定（URLベース） {% endcomment %}
 {% assign current_url = page.url | default: '/' %}
-{% assign is_en = current_url contains '/en/' %}
+{% assign normalized = current_url | downcase %}
+{% assign is_en = false %}
+{% if normalized == '/en' or normalized == '/en/' or normalized | slice: 0,4 == '/en/' %}
+  {% assign is_en = true %}
+{% endif %}
 
 {% comment %} デバッグ情報（一時的） {% endcomment %}
 <!-- Debug: current_url = "{{ current_url }}", is_en = {{ is_en }} -->
