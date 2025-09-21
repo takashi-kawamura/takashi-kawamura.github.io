@@ -5,6 +5,18 @@ email: tkawamura[at]atmos.rcast.u-tokyo.ac.jp
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://takashi-kawamura.github.io" # the base hostname & protocol for your site
 
+# Plugins
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-polyglot
+
+# Polyglot
+languages: ["ja", "en"]
+default_lang: "ja"
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -34,31 +46,3 @@ defaults:
 
 # Include
 include: ["_pages"]
-
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - README.md
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-remote-theme
-  - jekyll-include-cache
-
-# SEO
-author: Takashi Kawamura
-social:
-  name: Takashi Kawamura
-  links:
-    - https://scholar.google.com/
-    - https://github.com/
-    - https://orcid.org/

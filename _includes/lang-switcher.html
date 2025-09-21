@@ -1,27 +1,7 @@
-{% comment %} 現在のページの言語を判定（ファイルパスベース） {% endcomment %}
-{% assign page_path = page.path | default: '' %}
-{% assign is_en = page_path contains 'en/' %}
-
-{% comment %} デバッグ情報（一時的） {% endcomment %}
-<!-- Debug: page.url = "{{ page.url }}", page.path = "{{ page_path }}", is_en = {{ is_en }} -->
-
-
-{% if is_en %}
-  {% comment %} 英語ページから日本語ページへの切り替え {% endcomment %}
-  {%- assign alt_url = page.url | remove_first: '/en' -%}
-  {%- if alt_url == '' -%}
-    {%- assign alt_url = '/' -%}
-  {%- endif -%}
-  {%- assign alt_label = '日本語' -%}
-{% else %}
-  {% comment %} 日本語ページから英語ページへの切り替え {% endcomment %}
-  {%- assign alt_url = page.url -%}
-  {%- if alt_url == '/' -%}
-    {%- assign alt_url = '/en/' -%}
-  {%- else -%}
-    {%- assign alt_url = '/en' | append: alt_url -%}
-  {%- endif -%}
-  {%- assign alt_label = 'English' -%}
-{% endif %}
-
-<a class="lang-switch" href="{{ alt_url | relative_url }}">{{ alt_label }}</a>
+{% comment %} Polyglot が site.languages / site.active_lang / localized_url を提供 {% endcomment %}
+{% for lang in site.languages %}
+  {% if lang == site.active_lang %}{% continue %}{% endif %}
+  <a class="lang-switch" href="{{ page.url | localized_url: lang }}">
+    {{ lang == "ja" ? "日本語" : "English" }}
+  </a>
+{% endfor %}
