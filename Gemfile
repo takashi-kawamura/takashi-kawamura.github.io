@@ -12,9 +12,7 @@ source "https://rubygems.org"
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
-group :jekyll_plugins do
-  gem "github-pages", "~> 228"
-end
+gem "github-pages", group: :jekyll_plugins
 
 # Fix for Ruby 3.4+ compatibility
 gem "csv"
@@ -35,4 +33,4 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "minimal-mistakes-jekyll"
-gem "jekyll-include-cache"
+gem "jekyll-include-cache", group: :jekyll_plugins
