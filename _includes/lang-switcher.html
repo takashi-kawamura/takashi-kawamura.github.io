@@ -1,24 +1,16 @@
 {% comment %} 現在のページの言語を判定（URLベース） {% endcomment %}
-{% assign current_url = page.url | default: '/' %}
-{% assign normalized = current_url | downcase %}
-{% assign is_en = false %}
-{% if normalized == '/en' or normalized == '/en/' or normalized | slice: 0,4 == '/en/' %}
-  {% assign is_en = true %}
-{% endif %}
-
-{% comment %} デバッグ情報（一時的） {% endcomment %}
-<!-- Debug: current_url = "{{ current_url }}", is_en = {{ is_en }} -->
+{% assign is_en = page.url contains '/en/' %}
 
 {% if is_en %}
   {% comment %} 英語ページから日本語ページへの切り替え {% endcomment %}
-  {%- assign alt_url = current_url | remove_first: '/en' -%}
+  {%- assign alt_url = page.url | remove_first: '/en' -%}
   {%- if alt_url == '' -%}
     {%- assign alt_url = '/' -%}
   {%- endif -%}
   {%- assign alt_label = '日本語' -%}
 {% else %}
   {% comment %} 日本語ページから英語ページへの切り替え {% endcomment %}
-  {%- assign alt_url = current_url -%}
+  {%- assign alt_url = page.url -%}
   {%- if alt_url == '/' -%}
     {%- assign alt_url = '/en/' -%}
   {%- else -%}
