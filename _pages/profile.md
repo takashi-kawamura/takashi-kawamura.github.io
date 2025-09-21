@@ -1,4 +1,3 @@
-<!-- _pages/profile.md -->
 ---
 layout: single
 title: "Profile"
@@ -8,3 +7,4 @@ lang: ja
 ---
 
 Under construction...
+建設中...

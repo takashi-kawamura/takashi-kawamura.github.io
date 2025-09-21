@@ -5,12 +5,11 @@ header: false
 author_profile: false
 ---
 
-# 川村岳 (Takashi Kawamura)
+# 川村岳 Takashi Kawamura
 PhD Student, Research Center for Advanced Sciance and Technology (RCAST), The University of Tokyo 
-email: tkawamura[at]atmos.rcast.u-tokyo.ac.jp
+東京大学 先端科学技術研究センター/地球惑星科学専攻 博士課程1年
 
----
-Test
+Email: tkawamura[at]atmos.rcast.u-tokyo.ac.jp
 
 [Profile](/profile/){: .btn .btn--primary }
 [Publications](/publications/){: .btn .btn--info }
@@ -19,7 +18,7 @@ Test
 <section>
   <h2>About Me</h2>
   <p>
-    こんにちは。
+    こんにちは〜
   </p>
 </section>
 
