@@ -1,7 +1,7 @@
 # Site settings
 title: Takashi Kawamura
 description: PhD Student, The University of Tokyo - Research Center for Advanced Science and Technology (RCAST)
-email: tkawamura_at_atmos.rcast.u-tokyo.ac.jp
+email: tkawamura[at]atmos.rcast.u-tokyo.ac.jp
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://takashi-kawamura.github.io" # the base hostname & protocol for your site
 
