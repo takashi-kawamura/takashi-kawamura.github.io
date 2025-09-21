@@ -5,7 +5,7 @@ header: false
 author_profile: false
 ---
 
-# Takashi Kawamura  
+# 川村岳 (Takashi Kawamura)
 PhD Student, Research Center for Advanced Sciance and Technology (RCAST), The University of Tokyo 
 email: tkawamura[at]atmos.rcast.u-tokyo.ac.jp
 
