@@ -5,12 +5,6 @@ email: tkawamura[at]atmos.rcast.u-tokyo.ac.jp
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://takashi-kawamura.github.io" # the base hostname & protocol for your site
 
-theme: "minimal-mistakes-jekyll"
-
-# Minimal Mistakes theme settings
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-search: false
-
 # Site Author
 author:
   name: "Takashi Kawamura"
