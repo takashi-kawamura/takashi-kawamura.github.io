@@ -1,0 +1,11 @@
+{% comment %}
+  Search form
+{% endcomment %}
+<form class="search-form" action="{{ '/search/' | relative_url }}" method="get">
+  <label for="search-input" class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Search" }}</label>
+  <input type="search" id="search-input" name="q" placeholder="{{ site.data.ui-text[site.locale].search_placeholder | default: 'Search...' }}" class="search-input">
+  <button type="submit" class="search-button">
+    <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Search" }}</span>
+    <i class="fas fa-search"></i>
+  </button>
+</form>
