@@ -17,10 +17,19 @@ Email: tkawamura[at]atmos.rcast.u-tokyo.ac.jp
 
 ## About Me
 東京大学で気候力学の研究をしています。
-特に、気候の自然変動が背景の長期的な気候変化とともにどう変調するかに興味があります。
+気候の自然変動が長期的な気候変化を背景にどう変調するかに興味があります。
+特に、冬季北半球において最も卓越する大気循環変動である北半球環状モード/北大西洋振動の長期変化について、
+気候モデル実験出力の解析を通して調べています。
 
-## Research Interests
-- Northern Annular Mode (NAM), North Atlantic Oscillation (NAO)
+I am studying climate dynamics at the University of Tokyo.
+I am interested in how natural climate variability is modulated under long-term climate shift.
+In particular, I am investigating the long-term changes in the Northern Annular Mode/North Atlantic Oscillation, which is the dominant atmospheric circulation variability in the wintertime Northern Hemisphere,
+through the analysis of climate model experiment outputs.
+
+### Keywords
+- Climate Dynamics
+- Northern Annular Mode (NAM)
+- North Atlantic Oscillation (NAO)
 - ENSO teleconnection
 - Large-ensemble AGCM/CGCM experiments (d4PDF, CMIP)
 
