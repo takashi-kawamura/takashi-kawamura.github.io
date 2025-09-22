@@ -1,7 +1,6 @@
 # Site settings
 title: Takashi Kawamura
-description: PhD Student, The University of Tokyo - Research Center for Advanced Science and Technology (RCAST)
-email: tkawamura[at]atmos.rcast.u-tokyo.ac.jp
+description: PhD Student, Research Center for Advanced Science and Technology (RCAST), The University of Tokyo
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://takashi-kawamura.github.io" # the base hostname & protocol for your site
 
@@ -9,11 +8,13 @@ url: "https://takashi-kawamura.github.io" # the base hostname & protocol for you
 author:
   name: "Takashi Kawamura"
   avatar: "/assets/img/takashi-kawamura.png"
-  bio: "PhD Student, The University of Tokyo - Research Center for Advanced Science and Technology (RCAST)"
+  bio: "PhD Student, Research Center for Advanced Science and Technology (RCAST), The University of Tokyo"
   location: "Tokyo, Japan"
   email: "tkawamura[at]atmos.rcast.u-tokyo.ac.jp"
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
+minimal_mistakes_skin: "contrast"
 
 # Plugins
 plugins:
@@ -34,9 +35,18 @@ defaults:
       type: "pages"
     values:
       navigation: "true"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      navigation: "true"
+      show_date: "true"
 
 # Include
 include: ["_pages"]
 
 # Language
-locale: ja
+# locale: ja
+
+atom_feed:
+  hide: true

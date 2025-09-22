@@ -1,0 +1,7 @@
+---
+---
+@import "minimal-mistakes/skins/contrast"; /* ここを "dark" などに変えればスキン変更 */
+@import "minimal-mistakes";
+
+/* 本文フォントサイズを少し小さく */
+body { font-size: 0.85rem; line-height: 1.7; }
