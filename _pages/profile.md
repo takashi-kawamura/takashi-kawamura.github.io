@@ -37,7 +37,7 @@ lang: ja
 - American Geophysical Union
 
 ## 査読/Reviews
-- Geophysical Research Letters (assistance)
+- Geophysical Research Letters
 
 ## 趣味/Hobbies
 <!--
