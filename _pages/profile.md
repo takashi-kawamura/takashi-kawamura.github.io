@@ -18,6 +18,7 @@ lang: ja
 - __2000.4__         岩手県に生まれる
 
 ---
+- __2025.11-2025.12__ NSF National Center for Atmospheric Research (NCAR) Visitor
 - __2025.4-現在__  JST次世代研究者挑戦的研究プログラム (SPRING) 東京大学「グリーントランスフォーメーション (ＧＸ) を先導する高度人材育成 (SPRING GX)」プロジェクト生
 - __2023.10-現在__ 宇宙地球フロンティア国際卓越大学院 (IGPEES) コース生
 

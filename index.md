@@ -31,7 +31,7 @@ through the analysis of climate model experiment outputs.
 - Northern Annular Mode (NAM)
 - North Atlantic Oscillation (NAO)
 - ENSO teleconnection
-- Large-ensemble AGCM/CGCM experiments (d4PDF, CMIP)
+- Large-ensemble AGCM/CGCM simulations (d4PDF, CMIP)
 
 ## Links
 - [Google Scholar](https://scholar.google.com/citations?hl=ja&view_op=list_works&gmla=AH8HC4zQwnGoCtlwWpcZoyIPm4R1MfpuoPhSv7kGbsxmZf6QcPkE1p3KkAQjciAsmJ6LFnodbYuRXHjnCHQFGnDxeIAN7NVZPpsF_UVbLZtIh9Y&user=sjM8564AAAAJ)
