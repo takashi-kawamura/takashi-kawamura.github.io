@@ -1,10 +1,329 @@
-/* 全ページ共通フォント設定 */
+/* ===================================================
+   FONTS & BASE
+   =================================================== */
 body, h1, h2, h3, h4, h5, h6, small, .site-subtitle, .page__lead {
-    font-family:
-      Arial, Helvetica, "Helvetica Neue", 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN',
-      "Hiragino Kaku Gothic ProN", "Hiragino Sans",
-      "Yu Gothic Medium", "Yu Gothic",
-      Meiryo,
-      Arial, sans-serif;
-    line-height: 1.8;
-  }
+  font-family:
+    "Helvetica Neue", Arial,
+    "Hiragino Kaku Gothic ProN", "Hiragino Sans",
+    "Yu Gothic Medium", "Yu Gothic", Meiryo,
+    sans-serif;
+  line-height: 1.8;
+}
+
+/* ===================================================
+   LANGUAGE TOGGLE — visibility
+   =================================================== */
+.lang-en { display: none; }
+
+[data-lang="en"] .lang-en { display: block; }
+[data-lang="en"] .lang-ja { display: none; }
+
+/* inline variants (for mixed-flow content) */
+span.lang-en { display: none; }
+[data-lang="en"] span.lang-en { display: inline; }
+[data-lang="en"] span.lang-ja { display: none; }
+
+/* ===================================================
+   LANGUAGE TOGGLE BUTTON
+   =================================================== */
+.lang-toggle-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 9999;
+  background: #1a237e;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 0.45rem 1.1rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+}
+.lang-toggle-btn:hover {
+  background: #283593;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+}
+
+/* ===================================================
+   ACCENT VARIABLES (cascade)
+   =================================================== */
+:root {
+  --accent: #1a237e;
+  --accent-light: #e8eaf6;
+  --text-muted: #666;
+  --border-light: #e0e0e0;
+  --card-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+  --radius: 6px;
+}
+
+/* ===================================================
+   SECTION BLOCK (共通ラッパー)
+   =================================================== */
+.section-block {
+  background: #fafafa;
+  border-radius: var(--radius);
+  border-left: 4px solid var(--accent);
+  padding: 1.4rem 1.8rem;
+  margin-bottom: 2rem;
+}
+.section-block h2 {
+  margin-top: 0;
+  color: var(--accent);
+  font-size: 1.1rem;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+.section-block h3 {
+  font-size: 0.95rem;
+  color: #444;
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+/* ===================================================
+   TIMELINE (経歴)
+   =================================================== */
+.timeline {
+  position: relative;
+  padding-left: 1.6rem;
+  margin: 0;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: var(--border-light);
+}
+.timeline-item {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+  align-items: flex-start;
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -1.47rem;
+  top: 0.45rem;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px var(--accent);
+}
+.timeline-period {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--accent);
+  white-space: nowrap;
+  min-width: 8.5rem;
+  padding-top: 0.1rem;
+  flex-shrink: 0;
+}
+.timeline-content {
+  flex: 1;
+}
+.timeline-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.15rem;
+}
+.timeline-sub {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+/* group separator within timeline */
+.timeline-divider {
+  height: 1.2rem;
+}
+
+/* ===================================================
+   AWARD LIST
+   =================================================== */
+.award-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.award-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.award-item:last-child { border-bottom: none; }
+.award-date {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--accent);
+  white-space: nowrap;
+  min-width: 4.5rem;
+  flex-shrink: 0;
+  padding-top: 0.05rem;
+}
+.award-name {
+  font-size: 0.9rem;
+}
+.award-name a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--accent);
+}
+.award-name a:hover { border-bottom-style: solid; }
+
+/* ===================================================
+   SIMPLE TAGS LIST (資格・学会など)
+   =================================================== */
+.tag-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.tag-list li {
+  background: var(--accent-light);
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+}
+
+/* ===================================================
+   PUBLICATION CARDS
+   =================================================== */
+.pub-card {
+  background: #fff;
+  border: 1px solid var(--border-light);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--card-shadow);
+}
+.pub-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+.pub-year {
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.1rem 0.5rem;
+  border-radius: 3px;
+  letter-spacing: 0.05em;
+}
+.pub-journal {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+.pub-title {
+  font-weight: 700;
+  font-size: 0.92rem;
+  margin-bottom: 0.25rem;
+  line-height: 1.5;
+}
+.pub-authors {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+.pub-doi {
+  display: inline-block;
+  font-size: 0.78rem;
+  color: var(--accent);
+  text-decoration: none;
+  border: 1px solid var(--accent);
+  padding: 0.12rem 0.6rem;
+  border-radius: 3px;
+  transition: all 0.15s;
+}
+.pub-doi:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* ===================================================
+   PRESENTATION CARDS
+   =================================================== */
+.pres-section {
+  margin-bottom: 1.6rem;
+}
+.pres-section-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #555;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.35rem;
+  margin-bottom: 0.8rem;
+}
+.pres-card {
+  background: #fff;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.6rem;
+  box-shadow: var(--card-shadow);
+}
+.pres-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+  margin-bottom: 0.35rem;
+}
+.pres-tag {
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.1rem 0.45rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+}
+.tag-intl   { background: #e3f2fd; color: #1565c0; }
+.tag-dom    { background: #e8f5e9; color: #2e7d32; }
+.tag-ws     { background: #fff3e0; color: #e65100; }
+.tag-oral   { background: #f3e5f5; color: #6a1b9a; }
+.tag-poster { background: #fce4ec; color: #880e4f; }
+.pres-venue {
+  font-size: 0.78rem;
+  color: #888;
+  margin-left: auto;
+}
+.pres-title {
+  font-size: 0.88rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* ===================================================
+   RESPONSIVE
+   =================================================== */
+@media (max-width: 600px) {
+  .timeline-item { flex-direction: column; gap: 0.2rem; }
+  .timeline-period { min-width: auto; }
+  .pres-venue { margin-left: 0; width: 100%; margin-top: 0.2rem; }
+  .lang-toggle-btn { bottom: 1rem; right: 1rem; }
+}
