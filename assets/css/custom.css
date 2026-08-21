@@ -144,3 +144,10 @@ span.lang-en { display: none; }
   .timeline-item { flex-direction: column; gap: 0.2rem; }
   .timeline-period { min-width: auto; }
 }
+
+/* ===================================================
+   HDR画像の表示を抑制（通常の明るさに固定）
+   =================================================== */
+   img {
+    dynamic-range-limit: standard;
+  }
