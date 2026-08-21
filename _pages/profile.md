@@ -1,10 +1,6 @@
 ---
 title: "Profile"
 permalink: /profile/
-<<<<<<< HEAD
-author_profile: true
-=======
->>>>>>> 9a81de7 (Merge changes from duplicate clone and clean up)
 ---
 
 <!-- ===================== JAPANESE ===================== -->
@@ -23,57 +19,14 @@ author_profile: true
   </div>
 
   <div class="timeline-item">
-<<<<<<< HEAD
-    <div class="timeline-period">2023.4 – 2025.3</div>
-    <div class="timeline-content">
-      <div class="timeline-title">東京大学大学院 地球惑星科学専攻 修士課程</div>
-=======
     <div class="timeline-period">2025.3</div>
     <div class="timeline-content">
       <div class="timeline-title">東京大学大学院 地球惑星科学専攻 修士課程修了</div>
->>>>>>> 9a81de7 (Merge changes from duplicate clone and clean up)
       <div class="timeline-sub">指導教員: 小坂優 准教授</div>
     </div>
   </div>
 
   <div class="timeline-item">
-<<<<<<< HEAD
-    <div class="timeline-period">2021.4 – 2023.3</div>
-    <div class="timeline-content">
-      <div class="timeline-title">東京大学 理学部 地球惑星物理学科</div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-period">2019.4 – 2021.3</div>
-    <div class="timeline-content">
-      <div class="timeline-title">東京大学 教養学部（前期課程）理科一類</div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-period">2016.4 – 2019.3</div>
-    <div class="timeline-content">
-      <div class="timeline-title">岩手県立盛岡第一高等学校 普通科 → 理数科</div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-period">2000.4</div>
-    <div class="timeline-content">
-      <div class="timeline-title">岩手県に生まれる</div>
-    </div>
-  </div>
-
-</div>
-</div>
-
-<div class="section-block">
-<h2>フェローシップ・所属</h2>
-<div class="timeline">
-
-  <div class="timeline-item">
-=======
     <div class="timeline-period">2023.3</div>
     <div class="timeline-content">
       <div class="timeline-title">東京大学 理学部 地球惑星物理学科 卒業</div>
@@ -88,7 +41,6 @@ author_profile: true
 <div class="timeline">
 
   <div class="timeline-item">
->>>>>>> 9a81de7 (Merge changes from duplicate clone and clean up)
     <div class="timeline-period">2025.11 – 2025.12</div>
     <div class="timeline-content">
       <div class="timeline-title">NSF 国立大気研究センター（NCAR）訪問研究員</div>
@@ -116,13 +68,10 @@ author_profile: true
 <h2>受賞</h2>
 <ul class="award-list">
   <li class="award-item">
-<<<<<<< HEAD
-=======
     <div class="award-date">2026.7</div>
     <div class="award-name">JpGU-AGU Joint Meeting 2026 優秀学生発表賞 &nbsp;<a href="https://www.jpgu.org/ospa/2026meeting/" target="_blank">↗</a></div>
   </li>
   <li class="award-item">
->>>>>>> 9a81de7 (Merge changes from duplicate clone and clean up)
     <div class="award-date">2025.7</div>
     <div class="award-name">JpGU 2025 優秀学生発表賞 &nbsp;<a href="https://www.jpgu.org/ospa/2025meeting/" target="_blank">↗</a></div>
   </li>
@@ -188,54 +137,20 @@ author_profile: true
   </div>
 
   <div class="timeline-item">
-<<<<<<< HEAD
-    <div class="timeline-period">2023.4 – 2025.3</div>
-    <div class="timeline-content">
-      <div class="timeline-title">MS Student, Dept. of Earth and Planetary Science, The University of Tokyo</div>
-=======
     <div class="timeline-period">2025.3</div>
     <div class="timeline-content">
       <div class="timeline-title">MS, Dept. of Earth and Planetary Science, The University of Tokyo</div>
->>>>>>> 9a81de7 (Merge changes from duplicate clone and clean up)
       <div class="timeline-sub">Advisor: Assoc. Prof. Yu Kosaka</div>
     </div>
   </div>
 
   <div class="timeline-item">
-<<<<<<< HEAD
-    <div class="timeline-period">2021.4 – 2023.3</div>
-=======
     <div class="timeline-period">2023.3</div>
->>>>>>> 9a81de7 (Merge changes from duplicate clone and clean up)
     <div class="timeline-content">
       <div class="timeline-title">BS, Dept. of Earth and Planetary Physics, The University of Tokyo</div>
     </div>
   </div>
 
-<<<<<<< HEAD
-  <div class="timeline-item">
-    <div class="timeline-period">2019.4 – 2021.3</div>
-    <div class="timeline-content">
-      <div class="timeline-title">College of Arts and Sciences (Science I), The University of Tokyo</div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-period">2016.4 – 2019.3</div>
-    <div class="timeline-content">
-      <div class="timeline-title">Morioka First High School, Iwate Prefecture</div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-period">2000.4</div>
-    <div class="timeline-content">
-      <div class="timeline-title">Born in Iwate Prefecture</div>
-    </div>
-  </div>
-
-=======
->>>>>>> 9a81de7 (Merge changes from duplicate clone and clean up)
 </div>
 </div>
 
@@ -271,13 +186,10 @@ author_profile: true
 <h2>Awards</h2>
 <ul class="award-list">
   <li class="award-item">
-<<<<<<< HEAD
-=======
     <div class="award-date">2026.7</div>
     <div class="award-name">JpGU-AGU Joint Meeting 2026 Outstanding Student Presentation Award &nbsp;<a href="https://www.jpgu.org/ospa/2026meeting/" target="_blank">↗</a></div>
   </li>
   <li class="award-item">
->>>>>>> 9a81de7 (Merge changes from duplicate clone and clean up)
     <div class="award-date">2025.7</div>
     <div class="award-name">JpGU 2025 Outstanding Student Presentation Award &nbsp;<a href="https://www.jpgu.org/ospa/2025meeting/" target="_blank">↗</a></div>
   </li>
