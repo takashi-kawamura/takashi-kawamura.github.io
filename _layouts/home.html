@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="page">
+  <h1><span class="lang-ja">ブログ</span><span class="lang-en">Blog</span></h1>
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li class="post-summary">
+      <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+      <h2 class="post-summary-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      {% if post.excerpt %}<p class="post-summary-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</article>

@@ -1,9 +1,17 @@
 main:
-  - title: "Home"
-    url: /
-  - title: "Profile"
-    url: /profile/
-  - title: "Publications"
-    url: /publications/
-  - title: "Blog"
-    url: /blog/
+  - url: /
+    title:
+      ja: "ホーム"
+      en: "Home"
+  - url: /profile/
+    title:
+      ja: "プロフィール"
+      en: "Profile"
+  - url: /publications/
+    title:
+      ja: "論文・発表"
+      en: "Publications"
+  - url: /blog/
+    title:
+      ja: "ブログ"
+      en: "Blog"

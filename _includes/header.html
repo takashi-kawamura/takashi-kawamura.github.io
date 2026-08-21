@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="site-header-inner">
+    <a class="site-title" href="{{ '/' | relative_url }}">
+      <span class="lang-ja">川村 岳</span><span class="lang-en">Takashi Kawamura</span>
+    </a>
+    <nav class="site-nav">
+      {% for item in site.data.navigation.main %}
+      <a href="{{ item.url | relative_url }}" class="site-nav-link{% if page.url == item.url %} is-active{% endif %}">
+        <span class="lang-ja">{{ item.title.ja }}</span><span class="lang-en">{{ item.title.en }}</span>
+      </a>
+      {% endfor %}
+      <button id="lang-toggle-btn" class="lang-toggle-btn" type="button">English</button>
+    </nav>
+  </div>
+</header>

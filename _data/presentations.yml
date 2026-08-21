@@ -1,0 +1,201 @@
+# category: international / domestic / workshop
+# type: oral / poster
+# award (optional): shown with a star marker
+
+- category: international
+  type: poster
+  date: "2025.12"
+  venue:
+    ja: "AGU25 Annual Meeting, New Orleans"
+    en: "AGU25 Annual Meeting, New Orleans"
+  authors:
+    ja: "Kawamura T., Y. Kosaka, S. Okajima, and H. Nakamura"
+    en: "Kawamura T., Y. Kosaka, S. Okajima, and H. Nakamura"
+  title:
+    ja: "Projected Changes of the Northern Annular Mode Linked to Seasonality of the ENSO Teleconnection."
+    en: "Projected Changes of the Northern Annular Mode Linked to Seasonality of the ENSO Teleconnection."
+
+- category: international
+  type: poster
+  date: "2025.7"
+  venue:
+    ja: "IAMAS-IACS-IAPSO Joint Assembly 2025, Busan"
+    en: "IAMAS-IACS-IAPSO Joint Assembly 2025, Busan"
+  authors:
+    ja: "Kawamura T., and Y. Kosaka"
+    en: "Kawamura T., and Y. Kosaka"
+  title:
+    ja: "Weakening of the North Atlantic Oscillation under global warming in atmospheric large ensemble simulations."
+    en: "Weakening of the North Atlantic Oscillation under global warming in atmospheric large ensemble simulations."
+
+- category: international
+  type: poster
+  date: "2025.5"
+  venue:
+    ja: "Japan Geoscience Union Meeting 2025, Chiba"
+    en: "Japan Geoscience Union Meeting 2025, Chiba"
+  authors:
+    ja: "Kawamura T., and Y. Kosaka"
+    en: "Kawamura T., and Y. Kosaka"
+  title:
+    ja: "Weakening of the North Atlantic Oscillation under global warming in atmospheric large ensemble simulations."
+    en: "Weakening of the North Atlantic Oscillation under global warming in atmospheric large ensemble simulations."
+
+- category: international
+  type: oral
+  date: "2024.11"
+  venue:
+    ja: "The 4th ACM 2024 / 3rd A3 Workshop, Ibaraki"
+    en: "The 4th ACM 2024 / 3rd A3 Workshop, Ibaraki"
+  authors:
+    ja: "Kawamura T., and Y. Kosaka"
+    en: "Kawamura T., and Y. Kosaka"
+  title:
+    ja: "Modulations of the Northern Annular Mode in a warmer climate linked to ENSO teleconnection."
+    en: "Modulations of the Northern Annular Mode in a warmer climate linked to ENSO teleconnection."
+
+- category: international
+  type: oral
+  date: "2024.5"
+  venue:
+    ja: "Japan Geoscience Union Meeting 2024, Chiba"
+    en: "Japan Geoscience Union Meeting 2024, Chiba"
+  authors:
+    ja: "Kawamura T., and Y. Kosaka"
+    en: "Kawamura T., and Y. Kosaka"
+  title:
+    ja: "Projected changes of the Northern Annular Mode linked to SST variability."
+    en: "Projected changes of the Northern Annular Mode linked to SST variability."
+
+- category: international
+  type: oral
+  date: "2023.5"
+  venue:
+    ja: "Japan Geoscience Union Meeting 2023, Chiba"
+    en: "Japan Geoscience Union Meeting 2023, Chiba"
+  authors:
+    ja: "Kawamura T., K. Usui, S. Okajima, S. Sekizawa, A. Miyamoto, M. Toda, Y. Kosaka, and H. Nakamura"
+    en: "Kawamura T., K. Usui, S. Okajima, S. Sekizawa, A. Miyamoto, M. Toda, Y. Kosaka, and H. Nakamura"
+  title:
+    ja: "Subseasonal modulations of the Northern Annular Mode and ENSO remote influence."
+    en: "Subseasonal modulations of the Northern Annular Mode and ENSO remote influence."
+
+- category: domestic
+  type: poster
+  date: "2025.12"
+  venue:
+    ja: "日本気象学会 2025年度秋季大会, 福岡"
+    en: "Autumn Meeting MSJ 2025, Fukuoka"
+  authors:
+    ja: "川村岳, 小坂優"
+    en: "Kawamura T., and Y. Kosaka"
+  title:
+    ja: "将来の海陸昇温コントラストに伴う北大西洋振動の弱化."
+    en: "Weakening of the North Atlantic Oscillation Associated with Future Land–Sea Warming Contrast."
+
+- category: domestic
+  type: poster
+  date: "2024.11"
+  venue:
+    ja: "日本気象学会 2024年度秋季大会, 茨城"
+    en: "Autumn Meeting MSJ 2024, Ibaraki"
+  authors:
+    ja: "川村岳, 小坂優"
+    en: "Kawamura T., and Y. Kosaka"
+  title:
+    ja: "温暖化によるENSOテレコネクションの変調を介した北大西洋振動の気候影響の強化."
+    en: "Enhanced Climate Impact of the North Atlantic Oscillation via ENSO Teleconnection Modulation under Global Warming."
+
+- category: domestic
+  type: oral
+  date: "2023.10"
+  venue:
+    ja: "日本気象学会 2023年度秋季大会, 宮城"
+    en: "Autumn Meeting MSJ 2023, Miyagi"
+  authors:
+    ja: "川村岳, 小坂優"
+    en: "Kawamura T., and Y. Kosaka"
+  title:
+    ja: "北半球環状モード変動の季節内変調へのENSOの影響と将来変化."
+    en: "Intraseasonal Modulation of the Northern Annular Mode and Future Changes of ENSO Influence."
+  award:
+    ja: "松野賞"
+    en: "Matsuno Award"
+
+- category: domestic
+  type: oral
+  date: "2023.5"
+  venue:
+    ja: "日本気象学会 2023年度春季大会, オンライン"
+    en: "Spring Meeting MSJ 2023, Online"
+  authors:
+    ja: "川村岳, 臼井健人, 岡島悟, 関澤偲温, 宮本歩, 戸田賢希, 小坂優, 中村尚"
+    en: "Kawamura T., K. Usui, S. Okajima, S. Sekizawa, A. Miyamoto, M. Toda, Y. Kosaka, and H. Nakamura"
+  title:
+    ja: "北半球環状モード変動の季節内変調とENSOからの影響."
+    en: "Subseasonal Modulations of the Northern Annular Mode and ENSO Remote Influence."
+
+- category: workshop
+  type: poster
+  date: "2025.7"
+  venue:
+    ja: "Mid-latitude Atm–Ocean–Ecosystem Interactions WS, Fukuoka"
+    en: "Mid-latitude Atm–Ocean–Ecosystem Interactions WS, Fukuoka"
+  authors:
+    ja: "Kawamura T., and Y. Kosaka"
+    en: "Kawamura T., and Y. Kosaka"
+  title:
+    ja: "Weakening of the North Atlantic Oscillation under global warming in large ensemble simulations."
+    en: "Weakening of the North Atlantic Oscillation under global warming in large ensemble simulations."
+
+- category: workshop
+  type: poster
+  date: "2025.3"
+  venue:
+    ja: "学術変革領域「ハビタブル日本」令和6年度全体会議, 新潟"
+    en: "KAKENHI \"Habitable Japan\" FY2024 Symposium, Niigata"
+  authors:
+    ja: "川村岳, 小坂優"
+    en: "Kawamura T., and Y. Kosaka"
+  title:
+    ja: "地球温暖化に伴う北大西洋振動の弱化：エネルギー論に基づく解釈."
+    en: "Weakening of the North Atlantic Oscillation under Global Warming: An Energetics-Based Interpretation."
+
+- category: workshop
+  type: oral
+  date: "2024.8"
+  venue:
+    ja: "UTokyo–SNU–Yonsei Joint Workshop, Hokkaido"
+    en: "UTokyo–SNU–Yonsei Joint Workshop, Hokkaido"
+  authors:
+    ja: "Kawamura T., and Y. Kosaka"
+    en: "Kawamura T., and Y. Kosaka"
+  title:
+    ja: "Future changes of the Northern Annular Mode linked to the seasonality of ENSO teleconnection and air-sea interaction."
+    en: "Future changes of the Northern Annular Mode linked to the seasonality of ENSO teleconnection and air-sea interaction."
+
+- category: workshop
+  type: oral
+  date: "2023.12"
+  venue:
+    ja: "京都大学防災研究所 異常気象研究会, 京都"
+    en: "DPRI General Assembly (Abnormal Weather Group), Kyoto"
+  authors:
+    ja: "川村岳, 小坂優"
+    en: "Kawamura T., and Y. Kosaka"
+  title:
+    ja: "北半球環状モードの将来変化とSST変動の寄与."
+    en: "Future Changes of the Northern Annular Mode and the Role of SST Variability."
+
+- category: workshop
+  type: oral
+  date: "2023.8"
+  venue:
+    ja: "大槌シンポジウム（AORI 大槌沿岸センター）, 岩手"
+    en: "Otsuchi Symposium (AORI, UTokyo), Iwate"
+  authors:
+    ja: "川村岳, 小坂優"
+    en: "Kawamura T., and Y. Kosaka"
+  title:
+    ja: "北半球環状モード変動の季節内変調とENSOからの影響."
+    en: "Subseasonal Modulations of the Northern Annular Mode and ENSO Remote Influence."

@@ -4,22 +4,12 @@ description: PhD Student, Research Center for Advanced Science and Technology (R
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://takashi-kawamura.github.io" # the base hostname & protocol for your site
 
-# Site Author
 author:
   name: "Takashi Kawamura"
-  avatar: "/assets/img/takashi-kawamura.jpg"
-  bio: "PhD Student, Research Center for Advanced Science and Technology (RCAST), The University of Tokyo"
-  location: "Tokyo, Japan"
   email: "tkawamura@atmos.rcast.u-tokyo.ac.jp"
-
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"
-
-minimal_mistakes_skin: "contrast"
 
 # Plugins
 plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
@@ -34,13 +24,12 @@ defaults:
       path: ""
       type: "pages"
     values:
-      navigation: "true"
+      layout: "page"
   - scope:
       path: ""
       type: "posts"
     values:
-      navigation: "true"
-      show_date: "true"
+      layout: "post"
 
 # Include
 include: ["_pages"]
