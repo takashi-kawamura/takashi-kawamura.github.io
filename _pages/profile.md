@@ -13,14 +13,14 @@ permalink: /profile/
   <div class="timeline-item">
     <div class="timeline-period">2025.11 – 2025.12</div>
     <div class="timeline-content">
-      <div class="timeline-title">NSF National Center for Atmospheric Research (NCAR) Visitor</div>
+      <div class="timeline-title">NSF National Center for Atmospheric Research (NCAR) Visiting Scholar</div>
     </div>
   </div>
 
   <div class="timeline-item">
     <div class="timeline-period">2025.4 – 現在</div>
     <div class="timeline-content">
-      <div class="timeline-title">東京大学大学院 地球惑星科学専攻 博士課程</div>
+      <div class="timeline-title">東京大学大学院 理学系研究科 地球惑星科学専攻 博士課程</div>
       <div class="timeline-sub">指導教員: 小坂優 准教授</div>
     </div>
   </div>
@@ -28,7 +28,7 @@ permalink: /profile/
   <div class="timeline-item">
     <div class="timeline-period">2025.3</div>
     <div class="timeline-content">
-      <div class="timeline-title">東京大学大学院 地球惑星科学専攻 修士課程修了</div>
+      <div class="timeline-title">東京大学大学院 理学系研究科 地球惑星科学専攻 修士課程修了</div>
       <div class="timeline-sub">指導教員: 小坂優 准教授</div>
       <div class="timeline-sub">修士論文題目: "Modulations of the Northern Annular Mode under global warming: ENSO teleconnection change and NAO weakening"</div>
     </div>
@@ -104,7 +104,7 @@ permalink: /profile/
 <div class="section-block">
 <h2>資格</h2>
 <ul class="tag-list">
-  <li>国家公務員（総合職）</li>
+  <li>国家公務員 (総合職)</li>
   <li>気象予報士</li>
   <li>普通自動車第一種運転免許</li>
 </ul>
@@ -151,14 +151,14 @@ permalink: /profile/
   <div class="timeline-item">
     <div class="timeline-period">2025.11 – 2025.12</div>
     <div class="timeline-content">
-      <div class="timeline-title">NSF National Center for Atmospheric Research (NCAR) Visitor</div>
+      <div class="timeline-title">NSF National Center for Atmospheric Research (NCAR) Visiting Scholar</div>
     </div>
   </div>
 
   <div class="timeline-item">
     <div class="timeline-period">2025.4 – present</div>
     <div class="timeline-content">
-      <div class="timeline-title">PhD Student, Department of Earth and Planetary Science, The University of Tokyo</div>
+      <div class="timeline-title">PhD Student, Department of Earth and Planetary Science, School of Science, The University of Tokyo</div>
       <div class="timeline-sub">Advisor: Assoc. Prof. Yu Kosaka</div>
     </div>
   </div>
@@ -166,7 +166,7 @@ permalink: /profile/
   <div class="timeline-item">
     <div class="timeline-period">2025.3</div>
     <div class="timeline-content">
-      <div class="timeline-title">MS, Department of Earth and Planetary Science, The University of Tokyo</div>
+      <div class="timeline-title">MS, Department of Earth and Planetary Science, School of Science, The University of Tokyo</div>
       <div class="timeline-sub">Advisor: Assoc. Prof. Yu Kosaka</div>
       <div class="timeline-sub">Thesis: "Modulations of the Northern Annular Mode under global warming: ENSO teleconnection change and NAO weakening"</div>
     </div>
