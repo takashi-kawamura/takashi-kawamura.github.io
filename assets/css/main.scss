@@ -146,6 +146,10 @@ span.lang-en { display: none; }
   gap: 2rem;
 }
 .hero-text { flex: 1; min-width: 0; }
+.hero-text h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.8rem;
+}
 .hero-photo {
   flex-shrink: 0;
   width: 140px;
@@ -180,13 +184,13 @@ span.lang-en { display: none; }
 .timeline-item:last-child { border-bottom: none; }
 .timeline-period {
   flex: 0 0 9rem;
-  font-size: 0.82rem;
+  font-size: 1rem;
   color: var(--muted);
   white-space: nowrap;
 }
 .timeline-content { flex: 1; }
-.timeline-title { font-weight: 600; font-size: 0.92rem; }
-.timeline-sub { font-size: 0.82rem; color: var(--muted); margin-top: 0.1rem; }
+/* .timeline-title { font-weight: 600; font-size: 1rem; } */
+.timeline-sub { font-size: 1rem; color: var(--muted); margin-top: 0.1rem; }
 
 /* ===================================================
    AWARD LIST
@@ -199,8 +203,8 @@ span.lang-en { display: none; }
   border-bottom: 1px solid #f0f0f0;
 }
 .award-item:last-child { border-bottom: none; }
-.award-date { flex: 0 0 4.5rem; font-size: 0.82rem; color: var(--muted); }
-.award-name { font-size: 0.92rem; }
+.award-date { flex: 0 0 4.5rem; font-size: 1rem; color: var(--muted); }
+.award-name { font-size: 1rem; }
 .award-name a { color: var(--accent); }
 
 /* ===================================================
@@ -209,7 +213,7 @@ span.lang-en { display: none; }
 .tag-list { list-style: none; padding: 0; margin: 0; }
 .tag-list li {
   display: inline;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .tag-list li:not(:last-child)::after { content: " · "; color: var(--muted); }
 
@@ -227,7 +231,7 @@ span.lang-en { display: none; }
 .keyword-list li {
   background: var(--accent-light);
   color: var(--text);
-  font-size: 0.85rem;
+  font-size: 1rem;
   padding: 0.3rem 0.85rem;
   border-radius: 999px;
 }
@@ -245,13 +249,13 @@ span.lang-en { display: none; }
 .pub-item:last-child, .pres-item:last-child { border-bottom: none; }
 .pub-year, .pres-date {
   flex: 0 0 4.5rem;
-  font-size: 0.82rem;
+  font-size: 1rem;
   color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
-.pub-detail, .pres-detail { flex: 1; font-size: 0.92rem; line-height: 1.6; }
+.pub-detail, .pres-detail { flex: 1; font-size: 1rem; line-height: 1.6; }
 .pub-journal { color: var(--muted); font-style: italic; }
-.pub-doi { font-size: 0.85rem; }
+.pub-doi { font-size: 1rem; }
 .pres-type { color: var(--muted); }
 .pres-award { color: var(--accent); font-weight: 600; margin-left: 0.4rem; }
 

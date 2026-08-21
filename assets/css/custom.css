@@ -24,32 +24,6 @@ span.lang-en { display: none; }
 [data-lang="en"] span.lang-ja { display: none; }
 
 /* ===================================================
-   LANGUAGE TOGGLE BUTTON
-   =================================================== */
-.lang-toggle-btn {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  z-index: 9999;
-  background: #1a237e;
-  color: #fff;
-  border: none;
-  border-radius: 50px;
-  padding: 0.45rem 1.1rem;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  cursor: pointer;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
-  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
-}
-.lang-toggle-btn:hover {
-  background: #283593;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
-}
-
-/* ===================================================
    ACCENT VARIABLES (cascade)
    =================================================== */
 :root {
@@ -66,15 +40,14 @@ span.lang-en { display: none; }
    =================================================== */
 .section-block {
   background: #fafafa;
-  border-radius: var(--radius);
-  border-left: 4px solid var(--accent);
+  border-radius: 0;
   padding: 1.4rem 1.8rem;
   margin-bottom: 2rem;
 }
 .section-block h2 {
   margin-top: 0;
   color: var(--accent);
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   letter-spacing: 0.03em;
   border-bottom: 1px solid var(--border-light);
   padding-bottom: 0.5rem;
@@ -91,57 +64,31 @@ span.lang-en { display: none; }
    TIMELINE (経歴)
    =================================================== */
 .timeline {
-  position: relative;
-  padding-left: 1.6rem;
   margin: 0;
 }
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 3px;
-  top: 6px;
-  bottom: 6px;
-  width: 2px;
-  background: var(--border-light);
-}
 .timeline-item {
-  position: relative;
   display: flex;
-  gap: 1rem;
-  margin-bottom: 1.2rem;
-  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid #f0f0f0;
 }
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: -1.47rem;
-  top: 0.45rem;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--accent);
-  border: 2px solid #fff;
-  box-shadow: 0 0 0 2px var(--accent);
-}
+.timeline-item:last-child { border-bottom: none; }
 .timeline-period {
-  font-size: 0.78rem;
-  font-weight: 700;
+  font-size: 1rem;
   color: var(--accent);
   white-space: nowrap;
   min-width: 8.5rem;
-  padding-top: 0.1rem;
   flex-shrink: 0;
 }
 .timeline-content {
   flex: 1;
 }
 .timeline-title {
-  font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-bottom: 0.15rem;
 }
 .timeline-sub {
-  font-size: 0.82rem;
+  font-size: 1rem;
   color: var(--text-muted);
 }
 
@@ -167,7 +114,7 @@ span.lang-en { display: none; }
 }
 .award-item:last-child { border-bottom: none; }
 .award-date {
-  font-size: 0.78rem;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--accent);
   white-space: nowrap;
@@ -176,7 +123,7 @@ span.lang-en { display: none; }
   padding-top: 0.05rem;
 }
 .award-name {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .award-name a {
   color: var(--accent);
@@ -199,7 +146,7 @@ span.lang-en { display: none; }
 .tag-list li {
   background: var(--accent-light);
   color: var(--accent);
-  font-size: 0.82rem;
+  font-size: 1rem;
   font-weight: 600;
   padding: 0.25rem 0.75rem;
   border-radius: 50px;
@@ -325,5 +272,4 @@ span.lang-en { display: none; }
   .timeline-item { flex-direction: column; gap: 0.2rem; }
   .timeline-period { min-width: auto; }
   .pres-venue { margin-left: 0; width: 100%; margin-top: 0.2rem; }
-  .lang-toggle-btn { bottom: 1rem; right: 1rem; }
 }

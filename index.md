@@ -5,7 +5,7 @@
 
 <div class="hero">
   <div class="hero-text">
-    <h1>川村 岳</h1>
+    <h1>川村 岳 / Takashi Kawamura</h1>
     <p>
     東京大学 先端科学技術研究センター / 地球惑星科学専攻 博士課程<br>
     Email: tkawamura[at]atmos.rcast.u-tokyo.ac.jp
@@ -23,10 +23,11 @@
 <h3>キーワード</h3>
 <ul class="keyword-list">
   <li>気候力学</li>
+  <li>大規模大気循環</li>
   <li>北半球環状モード (NAM)</li>
   <li>北大西洋振動 (NAO)</li>
-  <li>ENSOテレコネクション</li>
-  <li>大規模アンサンブル実験 (d4PDF, CMIP)</li>
+  <li>エルニーニョ・南方振動 (ENSO)</li>
+  <li>大規模アンサンブル実験</li>
 </ul>
 </div>
 
@@ -49,7 +50,7 @@
   <div class="hero-text">
     <h1>Takashi Kawamura</h1>
     <p>
-    PhD Student, Research Center for Advanced Science and Technology (RCAST) / Dept. of Earth and Planetary Science, The University of Tokyo<br>
+    PhD Student, Research Center for Advanced Science and Technology (RCAST) / Department of Earth and Planetary Science, The University of Tokyo<br>
     Email: tkawamura[at]atmos.rcast.u-tokyo.ac.jp
     </p>
   </div>
@@ -65,10 +66,11 @@ I am studying climate dynamics at the University of Tokyo. I am interested in ho
 <h3>Keywords</h3>
 <ul class="keyword-list">
   <li>Climate Dynamics</li>
+  <li>Large-scale Atmospheric Circulation</li>
   <li>Northern Annular Mode (NAM)</li>
   <li>North Atlantic Oscillation (NAO)</li>
-  <li>ENSO Teleconnection</li>
-  <li>Large-Ensemble Simulations (d4PDF, CMIP)</li>
+  <li>El Niño–Southern Oscillation (ENSO)</li>
+  <li>Large-Ensemble Climate Simulations</li>
 </ul>
 </div>
 
