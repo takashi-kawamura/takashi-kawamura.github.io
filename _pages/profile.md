@@ -11,6 +11,13 @@ permalink: /profile/
 <div class="timeline">
 
   <div class="timeline-item">
+    <div class="timeline-period">2025.11 – 2025.12</div>
+    <div class="timeline-content">
+      <div class="timeline-title">NSF National Center for Atmospheric Research (NCAR) Visitor</div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
     <div class="timeline-period">2025.4 – 現在</div>
     <div class="timeline-content">
       <div class="timeline-title">東京大学大学院 地球惑星科学専攻 博士課程</div>
@@ -23,6 +30,7 @@ permalink: /profile/
     <div class="timeline-content">
       <div class="timeline-title">東京大学大学院 地球惑星科学専攻 修士課程修了</div>
       <div class="timeline-sub">指導教員: 小坂優 准教授</div>
+      <div class="timeline-sub">修士論文題目: "Modulations of the Northern Annular Mode under global warming: ENSO teleconnection change and NAO weakening"</div>
     </div>
   </div>
 
@@ -37,13 +45,20 @@ permalink: /profile/
 </div>
 
 <div class="section-block">
-<h2>フェローシップ・所属</h2>
+<h2>フェローシップ</h2>
 <div class="timeline">
 
   <div class="timeline-item">
-    <div class="timeline-period">2025.11 – 2025.12</div>
+    <div class="timeline-period">2025.7</div>
     <div class="timeline-content">
-      <div class="timeline-title">NSF 国立大気研究センター（NCAR）訪問研究員</div>
+      <div class="timeline-title">UTEC若手海外自由展開・研鑽支援プログラム (東京大学 駒場リサーチキャンパス) 採択</div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-period">2025.7</div>
+    <div class="timeline-content">
+      <div class="timeline-title">2025年度理学系研究科大学院学生国際派遣プログラム Graduate Research Abroad in Science Program (GRASP) 採択</div>
     </div>
   </div>
 
@@ -57,7 +72,7 @@ permalink: /profile/
   <div class="timeline-item">
     <div class="timeline-period">2023.10 – 現在</div>
     <div class="timeline-content">
-      <div class="timeline-title">宇宙地球フロンティア国際卓越大学院（IGPEES）コース生</div>
+      <div class="timeline-title">宇宙地球フロンティア国際卓越大学院 (IGPEES) コース生</div>
     </div>
   </div>
 
@@ -69,15 +84,15 @@ permalink: /profile/
 <ul class="award-list">
   <li class="award-item">
     <div class="award-date">2026.7</div>
-    <div class="award-name">JpGU-AGU Joint Meeting 2026 優秀学生発表賞 &nbsp;<a href="https://www.jpgu.org/ospa/2026meeting/" target="_blank">↗</a></div>
+    <div class="award-name"><a href="https://www.jpgu.org/ospa/2026meeting/" target="_blank">JpGU-AGU Joint Meeting 2026 学生優秀発表賞</a></div>
   </li>
   <li class="award-item">
     <div class="award-date">2025.7</div>
-    <div class="award-name">JpGU 2025 優秀学生発表賞 &nbsp;<a href="https://www.jpgu.org/ospa/2025meeting/" target="_blank">↗</a></div>
+    <div class="award-name"><a href="https://www.jpgu.org/ospa/2025meeting/" target="_blank">日本地球惑星科学連合2025年大会 (JpGU 2025) 学生優秀発表賞</a></div>
   </li>
   <li class="award-item">
     <div class="award-date">2023.12</div>
-    <div class="award-name">日本気象学会 松野賞 &nbsp;<a href="https://www.metsoc.jp/about/awards/matsuno" target="_blank">↗</a></div>
+    <div class="award-name"><a href="https://www.metsoc.jp/about/awards/matsuno" target="_blank">日本気象学会 松野賞</a></div>
   </li>
   <li class="award-item">
     <div class="award-date">2023.3</div>
@@ -105,17 +120,22 @@ permalink: /profile/
 </div>
 
 <div class="section-block">
-<h2>査読</h2>
+<h2>スキル</h2>
+<h3>言語</h3>
 <ul class="tag-list">
-  <li>Geophysical Research Letters</li>
+  <li>英語 (ビジネスレベル; TOEFL iBT 101)</li>
+  <li>日本語 (ネイティブ)</li>
 </ul>
-</div>
-
-<div class="section-block">
-<h2>趣味</h2>
+<h3>プログラミング</h3>
 <ul class="tag-list">
-  <li>音楽</li>
-  <li>読書</li>
+  <li>Python</li>
+  <li>Shell Script</li>
+  <li>Fortran 90</li>
+</ul>
+<h3>数値モデル</h3>
+<ul class="tag-list">
+  <li>GFDL AM2.1, CM2.1</li>
+  <li>Linear Baroclinic Model</li>
 </ul>
 </div>
 
@@ -129,9 +149,16 @@ permalink: /profile/
 <div class="timeline">
 
   <div class="timeline-item">
+    <div class="timeline-period">2025.11 – 2025.12</div>
+    <div class="timeline-content">
+      <div class="timeline-title">NSF National Center for Atmospheric Research (NCAR) Visitor</div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
     <div class="timeline-period">2025.4 – present</div>
     <div class="timeline-content">
-      <div class="timeline-title">PhD Student, Dept. of Earth and Planetary Science, The University of Tokyo</div>
+      <div class="timeline-title">PhD Student, Department of Earth and Planetary Science, The University of Tokyo</div>
       <div class="timeline-sub">Advisor: Assoc. Prof. Yu Kosaka</div>
     </div>
   </div>
@@ -139,15 +166,16 @@ permalink: /profile/
   <div class="timeline-item">
     <div class="timeline-period">2025.3</div>
     <div class="timeline-content">
-      <div class="timeline-title">MS, Dept. of Earth and Planetary Science, The University of Tokyo</div>
+      <div class="timeline-title">MS, Department of Earth and Planetary Science, The University of Tokyo</div>
       <div class="timeline-sub">Advisor: Assoc. Prof. Yu Kosaka</div>
+      <div class="timeline-sub">Thesis: "Modulations of the Northern Annular Mode under global warming: ENSO teleconnection change and NAO weakening"</div>
     </div>
   </div>
 
   <div class="timeline-item">
     <div class="timeline-period">2023.3</div>
     <div class="timeline-content">
-      <div class="timeline-title">BS, Dept. of Earth and Planetary Physics, The University of Tokyo</div>
+      <div class="timeline-title">BS, Department of Earth and Planetary Physics, The University of Tokyo</div>
     </div>
   </div>
 
@@ -155,13 +183,20 @@ permalink: /profile/
 </div>
 
 <div class="section-block">
-<h2>Fellowships &amp; Affiliations</h2>
+<h2>Fellowships</h2>
 <div class="timeline">
 
   <div class="timeline-item">
-    <div class="timeline-period">2025.11 – 2025.12</div>
+    <div class="timeline-period">2025.7</div>
     <div class="timeline-content">
-      <div class="timeline-title">Visiting Researcher, NSF National Center for Atmospheric Research (NCAR)</div>
+      <div class="timeline-title">UTEC Young Researchers' Challenge Support Program, 2025 UTEC Program (Komaba Research Campus, The University of Tokyo)</div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-period">2025.7</div>
+    <div class="timeline-content">
+      <div class="timeline-title">Graduate Research Abroad in Science Program (GRASP), Graduate School of Science, The University of Tokyo — FY2025 Awardee</div>
     </div>
   </div>
 
@@ -187,19 +222,19 @@ permalink: /profile/
 <ul class="award-list">
   <li class="award-item">
     <div class="award-date">2026.7</div>
-    <div class="award-name">JpGU-AGU Joint Meeting 2026 Outstanding Student Presentation Award &nbsp;<a href="https://www.jpgu.org/ospa/2026meeting/" target="_blank">↗</a></div>
+    <div class="award-name"><a href="https://www.jpgu.org/ospa/2026meeting/" target="_blank">JpGU-AGU Joint Meeting 2026 Outstanding Student Presentation Award</a></div>
   </li>
   <li class="award-item">
     <div class="award-date">2025.7</div>
-    <div class="award-name">JpGU 2025 Outstanding Student Presentation Award &nbsp;<a href="https://www.jpgu.org/ospa/2025meeting/" target="_blank">↗</a></div>
+    <div class="award-name"><a href="https://www.jpgu.org/ospa/2025meeting/" target="_blank">JpGU 2025 Outstanding Student Presentation Award</a></div>
   </li>
   <li class="award-item">
     <div class="award-date">2023.12</div>
-    <div class="award-name">Matsuno Award, Meteorological Society of Japan &nbsp;<a href="https://www.metsoc.jp/about/awards/matsuno" target="_blank">↗</a></div>
+    <div class="award-name"><a href="https://www.metsoc.jp/about/awards/matsuno" target="_blank">Matsuno Award, Meteorological Society of Japan</a></div>
   </li>
   <li class="award-item">
     <div class="award-date">2023.3</div>
-    <div class="award-name">Dean's Award for Academic Achievement, Faculty of Science, The University of Tokyo</div>
+    <div class="award-name">Dean's Award, School of Science, The University of Tokyo</div>
   </li>
 </ul>
 </div>
@@ -207,7 +242,6 @@ permalink: /profile/
 <div class="section-block">
 <h2>Certifications</h2>
 <ul class="tag-list">
-  <li>National Civil Service (General Track)</li>
   <li>Certified Weather Forecaster</li>
   <li>Driver's License (Type 1)</li>
 </ul>
@@ -223,17 +257,22 @@ permalink: /profile/
 </div>
 
 <div class="section-block">
-<h2>Peer Review</h2>
+<h2>Skills</h2>
+<h3>Languages</h3>
 <ul class="tag-list">
-  <li>Geophysical Research Letters</li>
+  <li>English (Professional working proficiency; TOEFL iBT 101)</li>
+  <li>Japanese (Native)</li>
 </ul>
-</div>
-
-<div class="section-block">
-<h2>Hobbies</h2>
+<h3>Programming</h3>
 <ul class="tag-list">
-  <li>Music</li>
-  <li>Reading</li>
+  <li>Python</li>
+  <li>Shell Script</li>
+  <li>Fortran 90</li>
+</ul>
+<h3>Numerical Models</h3>
+<ul class="tag-list">
+  <li>GFDL AM2.1, CM2.1</li>
+  <li>Linear Baroclinic Model</li>
 </ul>
 </div>
 

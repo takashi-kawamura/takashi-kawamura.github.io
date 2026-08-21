@@ -54,7 +54,7 @@ span.lang-en { display: none; }
   margin-bottom: 1.2rem;
 }
 .section-block h3 {
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   color: #444;
   margin-top: 1.2rem;
   margin-bottom: 0.6rem;
@@ -75,10 +75,12 @@ span.lang-en { display: none; }
 .timeline-item:last-child { border-bottom: none; }
 .timeline-period {
   font-size: 1rem;
+  font-weight: 700;
   color: var(--accent);
   white-space: nowrap;
   min-width: 8.5rem;
   flex-shrink: 0;
+  padding-top: 0.05rem;
 }
 .timeline-content {
   flex: 1;
@@ -135,141 +137,10 @@ span.lang-en { display: none; }
 /* ===================================================
    SIMPLE TAGS LIST (資格・学会など)
    =================================================== */
-.tag-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-.tag-list li {
-  background: var(--accent-light);
-  color: var(--accent);
-  font-size: 1rem;
-  font-weight: 600;
-  padding: 0.25rem 0.75rem;
-  border-radius: 50px;
-}
-
-/* ===================================================
-   PUBLICATION CARDS
-   =================================================== */
-.pub-card {
-  background: #fff;
-  border: 1px solid var(--border-light);
-  border-left: 4px solid var(--accent);
-  border-radius: var(--radius);
-  padding: 1rem 1.2rem;
-  margin-bottom: 1rem;
-  box-shadow: var(--card-shadow);
-}
-.pub-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  align-items: center;
-  margin-bottom: 0.4rem;
-}
-.pub-year {
-  background: var(--accent);
-  color: #fff;
-  font-size: 0.72rem;
-  font-weight: 700;
-  padding: 0.1rem 0.5rem;
-  border-radius: 3px;
-  letter-spacing: 0.05em;
-}
-.pub-journal {
-  font-size: 0.82rem;
-  color: var(--text-muted);
-  font-style: italic;
-}
-.pub-title {
-  font-weight: 700;
-  font-size: 0.92rem;
-  margin-bottom: 0.25rem;
-  line-height: 1.5;
-}
-.pub-authors {
-  font-size: 0.82rem;
-  color: var(--text-muted);
-  margin-bottom: 0.5rem;
-}
-.pub-doi {
-  display: inline-block;
-  font-size: 0.78rem;
-  color: var(--accent);
-  text-decoration: none;
-  border: 1px solid var(--accent);
-  padding: 0.12rem 0.6rem;
-  border-radius: 3px;
-  transition: all 0.15s;
-}
-.pub-doi:hover {
-  background: var(--accent);
-  color: #fff;
-}
-
-/* ===================================================
-   PRESENTATION CARDS
-   =================================================== */
-.pres-section {
-  margin-bottom: 1.6rem;
-}
-.pres-section-title {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: #555;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 0.35rem;
-  margin-bottom: 0.8rem;
-}
-.pres-card {
-  background: #fff;
-  border: 1px solid var(--border-light);
-  border-radius: var(--radius);
-  padding: 0.75rem 1rem;
-  margin-bottom: 0.6rem;
-  box-shadow: var(--card-shadow);
-}
-.pres-header {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-  align-items: center;
-  margin-bottom: 0.35rem;
-}
-.pres-tag {
-  font-size: 0.68rem;
-  font-weight: 700;
-  padding: 0.1rem 0.45rem;
-  border-radius: 3px;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  flex-shrink: 0;
-}
-.tag-intl   { background: #e3f2fd; color: #1565c0; }
-.tag-dom    { background: #e8f5e9; color: #2e7d32; }
-.tag-ws     { background: #fff3e0; color: #e65100; }
-.tag-oral   { background: #f3e5f5; color: #6a1b9a; }
-.tag-poster { background: #fce4ec; color: #880e4f; }
-.pres-venue {
-  font-size: 0.78rem;
-  color: #888;
-  margin-left: auto;
-}
-.pres-title {
-  font-size: 0.88rem;
-  color: #333;
-  line-height: 1.5;
-}
-
 /* ===================================================
    RESPONSIVE
    =================================================== */
 @media (max-width: 600px) {
   .timeline-item { flex-direction: column; gap: 0.2rem; }
   .timeline-period { min-width: auto; }
-  .pres-venue { margin-left: 0; width: 100%; margin-top: 0.2rem; }
 }

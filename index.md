@@ -7,7 +7,7 @@
   <div class="hero-text">
     <h1>川村 岳 / Takashi Kawamura</h1>
     <p>
-    東京大学 先端科学技術研究センター / 地球惑星科学専攻 博士課程<br>
+    東京大学 先端科学技術研究センター / 地球惑星科学専攻 博士課程2年<br>
     Email: tkawamura[at]atmos.rcast.u-tokyo.ac.jp
     </p>
   </div>

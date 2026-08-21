@@ -5,16 +5,29 @@ permalink: /publications/
 
 <div class="section-block">
 <h2><span class="lang-ja">論文</span><span class="lang-en">Papers</span></h2>
-<h3><span class="lang-ja">出版済み</span><span class="lang-en">Published</span></h3>
 
+{% assign submitted = site.data.publications | where: "status", "submitted" %}
+{% if submitted.size > 0 %}
+<h3><span class="lang-ja">投稿中</span><span class="lang-en">Submitted</span></h3>
 <ul class="pub-list">
-{% for p in site.data.publications %}
+{% for p in submitted %}
   <li class="pub-item">
-    <span class="pub-year">{{ p.year }}</span>
     <span class="pub-detail">
-      <span class="pub-journal">{{ p.journal }}</span><br>
-      {{ p.authors }} {{ p.title }}
-      {% if p.doi %}<br><a class="pub-doi" href="https://doi.org/{{ p.doi }}" target="_blank">DOI: {{ p.doi }}</a>{% endif %}
+      {{ p.authors }} ({{ p.year }}). {{ p.title }}, {% if p.journal %}<span class="pub-journal">{{ p.journal }}</span>, {% endif %}submitted.
+    </span>
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% assign published = site.data.publications | where: "status", "published" %}
+<h3><span class="lang-ja">出版済み</span><span class="lang-en">Published</span></h3>
+<ul class="pub-list">
+{% for p in published %}
+  <li class="pub-item">
+    <span class="pub-detail">
+      {{ p.authors }} ({{ p.year }}). {{ p.title }} <span class="pub-journal">{{ p.journal }}</span>, {{ p.pages }}.
+      {% if p.doi %}<a class="pub-doi" href="https://doi.org/{{ p.doi }}" target="_blank">doi: {{ p.doi }}</a>{% endif %}
     </span>
   </li>
 {% endfor %}
@@ -37,13 +50,21 @@ permalink: /publications/
   </h3>
   <ul class="pres-list">
   {% for pr in items %}
+    {% assign date_parts = pr.date | split: "." %}
+    {% assign pr_year = date_parts[0] %}
+    {% assign pr_month = date_parts[1] | plus: 0 %}
     <li class="pres-item">
-      <span class="pres-date">{{ pr.date }}</span>
       <span class="pres-detail">
-        <span class="pres-type">[{% if pr.type == "oral" %}<span class="lang-ja">口頭</span><span class="lang-en">Oral</span>{% else %}<span class="lang-ja">ポスター</span><span class="lang-en">Poster</span>{% endif %}]</span>
-        <span class="lang-ja">{{ pr.venue.ja }}</span><span class="lang-en">{{ pr.venue.en }}</span> —
-        <span class="lang-ja">{{ pr.authors.ja }}</span><span class="lang-en">{{ pr.authors.en }}</span>,
-        <span class="lang-ja">{{ pr.title.ja }}</span><span class="lang-en">{{ pr.title.en }}</span>
+        {{ pr.authors }}, {{ pr.title }}, {{ pr.venue }}, {{ pr.city }},
+        {% if pr.lang == "en" %}
+          {% assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+          {% assign pr_month_index = pr_month | minus: 1 %}
+          {{ month_names[pr_month_index] }} {{ pr_year }},
+          <span class="pres-type">{% if pr.type == "oral" %}Oral{% else %}Poster{% endif %}</span>.
+        {% else %}
+          {{ pr_year }}年{{ pr_month }}月,
+          <span class="pres-type">{% if pr.type == "oral" %}口頭{% else %}ポスター{% endif %}</span>.
+        {% endif %}
         {% if pr.award %}<span class="pres-award">★ <span class="lang-ja">{{ pr.award.ja }}</span><span class="lang-en">{{ pr.award.en }}</span></span>{% endif %}
       </span>
     </li>

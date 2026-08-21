@@ -33,12 +33,12 @@ a:hover { text-decoration: underline; }
 h1, h2, h3 { line-height: 1.4; font-weight: 700; }
 h1 { font-size: 1.5rem; margin: 0 0 1.2rem; }
 h2 {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   margin: 2.2rem 0 1rem;
   padding-bottom: 0.4rem;
   border-bottom: 1px solid var(--border);
 }
-h3 { font-size: 0.95rem; margin: 1.4rem 0 0.6rem; color: var(--muted); }
+h3 { font-size: 1rem; margin: 1.4rem 0 0.6rem; color: var(--muted); }
 
 /* ===================================================
    LAYOUT
@@ -210,12 +210,21 @@ span.lang-en { display: none; }
 /* ===================================================
    PLAIN TAG LIST (certifications / societies / hobbies)
    =================================================== */
-.tag-list { list-style: none; padding: 0; margin: 0; }
-.tag-list li {
-  display: inline;
-  font-size: 1rem;
+.tag-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
-.tag-list li:not(:last-child)::after { content: " · "; color: var(--muted); }
+.tag-list li {
+  background: var(--accent-light);
+  color: var(--text);
+  font-size: 1rem;
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+}
 
 /* ===================================================
    KEYWORD BADGES (home research keywords)
@@ -241,22 +250,21 @@ span.lang-en { display: none; }
    =================================================== */
 .pub-list, .pres-list { list-style: none; padding: 0; margin: 0; }
 .pub-item, .pres-item {
-  display: flex;
-  gap: 1.2rem;
-  padding: 0.7rem 0;
+  position: relative;
+  padding: 0.7rem 0 0.7rem 1.2rem;
   border-bottom: 1px solid #f0f0f0;
 }
 .pub-item:last-child, .pres-item:last-child { border-bottom: none; }
-.pub-year, .pres-date {
-  flex: 0 0 4.5rem;
-  font-size: 1rem;
-  color: var(--muted);
-  font-variant-numeric: tabular-nums;
+.pub-item::before, .pres-item::before {
+  content: "・";
+  position: absolute;
+  left: 0;
+  top: 0.7rem;
+  color: var(--accent);
 }
-.pub-detail, .pres-detail { flex: 1; font-size: 1rem; line-height: 1.6; }
-.pub-journal { color: var(--muted); font-style: italic; }
+.pub-detail, .pres-detail { font-size: 1rem; line-height: 1.6; }
+.pub-journal { font-style: italic; }
 .pub-doi { font-size: 1rem; }
-.pres-type { color: var(--muted); }
 .pres-award { color: var(--accent); font-weight: 600; margin-left: 0.4rem; }
 
 /* ===================================================
@@ -264,6 +272,6 @@ span.lang-en { display: none; }
    =================================================== */
 @media (max-width: 600px) {
   .site-header-inner { flex-direction: column; align-items: flex-start; }
-  .timeline-item, .award-item, .pub-item, .pres-item { flex-direction: column; gap: 0.2rem; }
-  .timeline-period, .award-date, .pub-year, .pres-date { flex: none; }
+  .timeline-item, .award-item { flex-direction: column; gap: 0.2rem; }
+  .timeline-period, .award-date { flex: none; }
 }
